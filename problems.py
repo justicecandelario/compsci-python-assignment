@@ -2,14 +2,19 @@ import random
 import string 
 
 # Create a comment with your name
+#Justice Candelario
 
 # Create a string called 'name' which stores your name
+name = 'Justice Candelario'
 
 # Print the 'name' variable
+print(name)
 
 # Create a variable storing an integer
+var1 = 4
 
 # Create a variable storing a floating point number
+var2= 9.60
 
 # This line creates a string of 1000000 random letters
 rs = ''.join(random.choices(string.ascii_lowercase, k=1000001))
@@ -24,10 +29,13 @@ rw = ''.join(random.choices(list(string.ascii_lowercase) + [' '], k=1000))
 # This is a string to be formatted
 sentence = '{greeting}, my name is {name}'
 # Print the sentence formatted with your choice of greeting and your name
+print('Hello, my name is Justice Candelario')
 
 # Create a variable storing a tuple of your three favorite numbers
+favnumber = (3, 4, 8) 
 
 # Assign those three numbers to variables 'a', 'b', and 'c' in one line
+a, b, c = (3, 4, 8)
 
 # Create a variable storing None
 
