@@ -19,12 +19,18 @@ var2= 9.60
 # This line creates a string of 1000000 random letters
 rs = ''.join(random.choices(string.ascii_lowercase, k=1000001))
 # Print whether your first name (lowercase) appears in the string
+if 'justice' in rs:
+  print("yes")
+else:
+  print("no")
 
 # Print the first letter, last letter, and middle letter
+print(rs[0], rs[-1], rs[len(rs)//2])
 
 # This line creates a string of some random words
 rw = ''.join(random.choices(list(string.ascii_lowercase) + [' '], k=1000))
 # Print the number of words (a word being characters surrounded by spaces)
+print(len(rw.split()))
 
 # This is a string to be formatted
 sentence = '{greeting}, my name is {name}'
@@ -41,6 +47,7 @@ a, b, c = (3, 4, 8)
 var = None
 
 # Create a variable, lst, storing a list of the numbers 0-1000 (inclusive)
+lst = [1-1000]
 
 # Print the sum and average of the list
 
