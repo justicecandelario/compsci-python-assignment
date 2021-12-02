@@ -38,6 +38,7 @@ favnumber = (3, 4, 8)
 a, b, c = (3, 4, 8)
 
 # Create a variable storing None
+var = None
 
 # Create a variable, lst, storing a list of the numbers 0-1000 (inclusive)
 
